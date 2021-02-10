@@ -1,0 +1,75 @@
+/*Afectando etiqueta*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: auto;
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav {
+    width: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+
+/*Clase*/
+
+.box {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(238, 238, 238);
+    padding: 25px;
+}
+
+section {
+    margin: 20px;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: rgb(238, 238, 238);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*Afectando ID*/
