@@ -1,149 +1,185 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Benne&family=Brygada+1918&family=Oswald:wght@200&display=swap');
-</style>
-/*Afectando etiqueta*/
-
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-h1 {
-    font-family: 'Benne', sans-serif;
-}
-
-h2,
-h3,
-h4 {
-    font-family: 'Brigada', sans-serif;
-}
-
-p,
-a,
-table {
-    font-family: 'Oswald', sans-serif;
-}
-
-header {
-    height: auto;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav {
-    width: auto;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 20px;
-    list-style: none;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 0px;
-    transition: 1s;
-}
-
-nav a:hover {
-    color: orangered;
-}
-
-
-/*Clase*/
-
-.box {
-    width: 80%;
-    height: auto;
-    background-color: black;
-    color: rgb(238, 238, 238);
-    padding: 25px;
-}
-
-section {
-    margin: 20px;
-    width: 80%;
-    height: auto;
-    background-color: black;
-    color: rgb(238, 238, 238);
-    padding: 25px;
-    border-radius: 10px;
-}
-
-main {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*Afectando ID*/
-
-#welcome {
-    width: 100%;
-    margin: 0;
-    border: 0;
-    background-image: url(../img/brothers.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#profilePic {
-    width: 500px;
-    height: 500px;
-    background-color: black;
-    background-image: url(../img/hanging.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.6);
-}
-
-#social li a {
-    color: black;
-    font-size: x-large;
-}
-
-#social {
-    display: inline-block;
-    padding: 20px;
-    list-style: none;
-}
-
-#social a:hover {
-    color: orangered;
-    transition: 1s;
-}
+    <style>@import url('https://fonts.googleapis.com/css2?family=Benne&family=Brygada+1918&family=Oswald:wght@200&display=swap');
+    </style>
+    /*Afectando etiqueta*/
+    
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    h1 {
+        font-family: 'Benne', sans-serif;
+    }
+    
+    h2,
+    h3,
+    h4 {
+        font-family: 'Brigada', sans-serif;
+    }
+    
+    p,
+    a,
+    table {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    header {
+        height: auto;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav {
+        width: auto;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+        list-style: none;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 0px;
+        transition: 1s;
+    }
+    
+    nav a:hover {
+        color: orangered;
+    }
+    /*Clase*/
+    
+    .box {
+        width: 80%;
+        height: auto;
+        background-color: black;
+        color: rgb(238, 238, 238);
+        padding: 25px;
+    }
+    
+    section {
+        margin: 20px;
+        width: 80%;
+        height: auto;
+        background-color: black;
+        color: rgb(238, 238, 238);
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+    main {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Afectando ID*/
+    
+    #welcome {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        background-image: url(../img/brothers.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #aboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    #profilePic {
+        width: 500px;
+        height: 500px;
+        background-color: black;
+        background-image: url(../img/hanging.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.6);
+    }
+    
+    #social li a {
+        color: black;
+        font-size: x-large;
+    }
+    
+    #social {
+        display: inline-block;
+        padding: 20px;
+        list-style: none;
+    }
+    
+    #social a:hover {
+        color: orangered;
+        transition: 1s;
+    }
+    
+    #about {
+        background-image: url(../img/demons.jpg);
+    }
+    
+    @media (max-width: 640px) {
+        header {
+            height: auto;
+            background-color: blue;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    @media (min-width: 641px),
+    (max-width: 1007) {
+        header {
+            height: auto;
+            background-color: red;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    
+    @media (min-width: 1008px) {
+        header {
+            height: auto;
+            background-color: brown;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
