@@ -150,8 +150,9 @@
     
     @media (max-width: 640px) {
         header {
+            position: fixed;
             height: auto;
-            background-color: blue;
+            background-color: black;
             color: white;
             display: flex;
             flex-direction: column;
@@ -163,12 +164,13 @@
     (max-width: 1007) {
         header {
             height: auto;
-            background-color: red;
+            background-color: goldenrod;
             color: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            position: fixed;
         }
     }
     
@@ -181,5 +183,6 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            position: relative;
         }
     }
