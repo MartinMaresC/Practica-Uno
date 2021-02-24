@@ -30,7 +30,7 @@
     
     header {
         height: auto;
-        background-color: black;
+        background-color: red;
         color: white;
         display: flex;
         flex-direction: row;
@@ -49,7 +49,7 @@
     }
     
     nav a {
-        color: white;
+        color: blue;
         text-decoration: none;
         display: block;
         padding: 0px;
@@ -92,7 +92,7 @@
         width: 100%;
         margin: 0;
         border: 0;
-        background-image: url(../img/brothers.jpg);
+        background-image: url(../img/5a65e9685e1ea8e10987a6b4138239c1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -111,13 +111,13 @@
     }
     
     #profilePic {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         background-color: black;
-        background-image: url(../img/hanging.jpg);
+        background-image: url(../img/tonos-de-azul-tipos-azules-con-sus-nombres-buscar-google-color-libro.png.crdownload);
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         border-radius: 50%;
         display: flex;
@@ -129,7 +129,7 @@
     }
     
     #social li a {
-        color: black;
+        color: green;
         font-size: x-large;
     }
     
@@ -146,6 +146,10 @@
     
     #about {
         background-image: url(../img/demons.jpg);
+    }
+    
+    h1 {
+        animation: ah1 infinite 1s;
     }
     
     @media (max-width: 640px) {
@@ -165,7 +169,7 @@
     (max-width: 1007) {
         header {
             height: auto;
-            background-color: goldenrod;
+            background-color: black;
             color: white;
             display: flex;
             flex-direction: row;
@@ -178,12 +182,24 @@
     @media (min-width: 1008px) {
         header {
             height: auto;
-            background-color: brown;
+            background-color: black;
             color: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             position: relative;
+        }
+    }
+    
+    @keyframes ah1 {
+        0% {
+            color: blue;
+        }
+        50% {
+            color: white;
+        }
+        100% {
+            color: blue;
         }
     }
