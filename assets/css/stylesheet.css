@@ -20,6 +20,7 @@
     h3,
     h4 {
         font-family: 'Brigada', sans-serif;
+        color: darkcyan;
     }
     
     p,
@@ -49,7 +50,7 @@
     }
     
     nav a {
-        color: blue;
+        color: darkcyan;
         text-decoration: none;
         display: block;
         padding: 0px;
@@ -66,7 +67,7 @@
         height: auto;
         background-color: black;
         color: rgb(238, 238, 238);
-        padding: 25px;
+        padding: 0px;
     }
     
     section {
@@ -200,6 +201,6 @@
             color: white;
         }
         100% {
-            color: blue;
+            color: darkcyan;
         }
     }
